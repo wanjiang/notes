@@ -10,7 +10,7 @@ Logic AI automatic reasoning
 |1 | 0 |  0  |  1  |  0   |    0| 
 |1 | 1 |  1  |  1  |  1   |    1| 
 
-| p | q | `p&q`           | `p|q` |
+| p | q | p\&q           | p\|q |
 | :------------- | :--------- | :------------- | :---------- |
 | `mdDesc`       | `mdColumn` | `[expression]` | If present, the column will sort descending first. The default is to sort ascending first. |
 | `mdOnReorder`  | `mdHead`   | `function`     | A callback function for when the order changes. The callback will receive the new order. |
