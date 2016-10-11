@@ -3,19 +3,12 @@ Logic AI automatic reasoning
 
 ### Truth table
 
-|p | q | p&amp;q | p&#124;q | p  q | notp&#124;q| 
+|p | q | p&amp;q | p&#124;q | p  q | not(p)&#124;q| 
 |:--|---|-----|-------|------|-----------|
 |0 | 0 |  0  |  0  |  1   |    1| 
 |0 | 1 |  0  |  1  |  1   |    1| 
 |1 | 0 |  0  |  1  |  0   |    0| 
 |1 | 1 |  1  |  1  |  1   |    1| 
-
-| p | q | p&amp;q           | pq |
-|:------------- | :--------- | :------------- | :---------- |
-| `0`       | `mdColumn` | `[expression]` | If present, the column will sort descending first. The default is to sort ascending first. |
-| `mdOnReorder`  | `mdHead`   | `function`     | A callback function for when the order changes. The callback will receive the new order. |
-| `mdOrder`      | `mdHead`   | `string`       | A variable to bind the sort order to. |
-| `mdOrderBy`    | `mdColumn` | `string`       | The value to bind to the sort order. |
 
 
 modus ponens
