@@ -3,14 +3,14 @@ Logic AI automatic reasoning
 
 ### Truth table
 
-|p | q | p ap q | p or q | `p to q` | `notpq`| 
+|p | q | p & q | p | q | `p -> q` | `not(p)|q`| 
 |:-|:--|:----|:------|:-----|:----------|
 |`0` | `0` |  `0`  |  `0`  |  `1`   |    `1`| 
 |0 | 1 |  0  |  1  |  1   |    1| 
 |1 | 0 |  0  |  1  |  0   |    0| 
 |1 | 1 |  1  |  1  |  1   |    1| 
 
-| p | q | pq           | pq |
+| p | q | p&ampq           | pq |
 | :------------- | :--------- | :------------- | :---------- |
 | `mdDesc`       | `mdColumn` | `[expression]` | If present, the column will sort descending first. The default is to sort ascending first. |
 | `mdOnReorder`  | `mdHead`   | `function`     | A callback function for when the order changes. The callback will receive the new order. |
