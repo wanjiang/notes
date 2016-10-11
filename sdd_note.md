@@ -14,8 +14,8 @@ Logic AI automatic reasoning
 #### modus ponens
 ```
 not(p) | q \
-                -> q
-    p          /
+             -> q
+    p      /
 ```
 ```
        | q \
