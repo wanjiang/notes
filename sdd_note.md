@@ -1,14 +1,12 @@
 #PROJECT #3
 Logic AI automatic reasoning
 
-Truth table
-------------------------------
-p  q  p&q  p|q  p->q  not(p)|q
-0  0   0    0    1       1
-0  1   0    1    1       1
-1  0   0    1    0       0
-1  1   1    1    1       1
-------------------------------
+### Truth table
+|p | q | p&q | `p|q` | p->q | `not(p)|q`| 
+|0 | 0 |  0  |  0  |  1   |    1| 
+|0 | 1 |  0  |  1  |  1   |    1| 
+|1 | 0 |  0  |  1  |  0   |    0| 
+|1 | 1 |  1  |  1  |  1   |    1| 
 
 modus ponens
 not(p) | q \
