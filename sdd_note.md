@@ -12,14 +12,16 @@ Logic AI automatic reasoning
 
 
 #### modus ponens
+```
 not(p) &amp; q \
-             -> q
-    p      /
-
+                -> q
+    p          /
+```
+```
        | q \
              -> q
            /
-
+```
 +------------------------------------------------------------------------------+
 Dynamic programming Distance of two string
 
