@@ -22,27 +22,25 @@ not(p) | q \
              -> q
            /
 ```
-+------------------------------------------------------------------------------+
-Dynamic programming Distance of two string
+#Dynamic programming Distance of two string
 
 match    +2
 mismatch -1
 gap      -2
 
-+------------------------------------------------------------------------------+
 
-*PROJECT #6
+#PROJECT #6
 training case - first two files
 
-doc                        class
---------------------------------
-Chinese  Beijing  Chinese    c
-Chinese  Chinese  Shanghai   c
-Chinese  Macao               c
-- - - - - - - - - - - - - - - -
-Tokyo    Japan    Chinese    j
---------------------------------
-Chinese  Chinese  Chinese Tokyo Japan ?
+|doc     |        |          | class|
+|:-------|--------|----------|------|
+|Chinese | Beijing|  Chinese |   c  |
+|Chinese | Chinese|  Shanghai|   c  |
+|Chinese | Macao  |          |   c  |
+|- - - - |- - - - |- - - - - |- - - |
+|Tokyo   | Japan   | Chinese   | j    |
+|--------|--------|----------|------|
+|Chinese  |Chinese  |Chinese |Tokyo |Japan ?|
 
 P(c) = 3/4, P(j) = 1/4
 We use this: Prob1 = (nwordsByA1/nwordsByAs)
