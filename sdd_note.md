@@ -13,7 +13,7 @@ Logic AI automatic reasoning
 
 | p | q | p&amp;q           | pq |
 | :------------- | :--------- | :------------- | :---------- |
-| `mdDesc`       | `mdColumn` | `[expression]` | If present, the column will sort descending first. The default is to sort ascending first. |
+| `0`       | `mdColumn` | `[expression]` | If present, the column will sort descending first. The default is to sort ascending first. |
 | `mdOnReorder`  | `mdHead`   | `function`     | A callback function for when the order changes. The callback will receive the new order. |
 | `mdOrder`      | `mdHead`   | `string`       | A variable to bind the sort order to. |
 | `mdOrderBy`    | `mdColumn` | `string`       | The value to bind to the sort order. |
