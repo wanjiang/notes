@@ -43,21 +43,22 @@ training case - first two files
 ```
 Chinese  Chinese  Chinese Tokyo Japan ?
 ```
-P(c) = 3/4, P(j) = 1/4
+
+#### P(c) = 3/4, P(j) = 1/4
 We use this: Prob1 = (nwordsByA1/nwordsByAs)
 
 P(word|class) = [COUNT(word in class) + 1]/[The total words in the class + |v|]
 
 :|v| the number of unique words in all class
 
-P(Chinese|c) = (5+1)/(8+6) = 3/7
-...
-P(Tokyo|c) = (0+1)/(8+6) = 1/14
-P(Japan|c) = (0+1)/(8+6) = 1/14
-P(Chinese|j) = (1+1)/(3+6) = 2/9
-P(Tokyo|j) = (1+1)/(3+6) = 2/9
-P(Japan|j) = (1+1)/(3+6) = 2/9
-
+- P(Chinese|c) = (5+1)/(8+6) = 3/7
+- ...
+- P(Tokyo|c) = (0+1)/(8+6) = 1/14
+- P(Japan|c) = (0+1)/(8+6) = 1/14
+- P(Chinese|j) = (1+1)/(3+6) = 2/9
+- P(Tokyo|j) = (1+1)/(3+6) = 2/9
+- P(Japan|j) = (1+1)/(3+6) = 2/9
+```
 Answer:
 1. P(c|testdoc) 
 P = P(c) x P(Chinese|c) x P(Chinese|c) x P(Chinese|c) x P(Tokyo|c) x P(Japan|c)
@@ -69,7 +70,7 @@ P = P(j) x P(Chinese|j) x P(Chinese|j) x P(Chinese|j) x P(Tokyo|j) x P(Japan|j)
   = 0.0001
 Since 0.0003>0.0001
 Chinese  Chinese  Chinese Tokyo Japan is c 
-
+```
 +------------------------------------------------------------------------------+
 
 *VI
