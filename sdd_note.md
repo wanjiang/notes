@@ -11,8 +11,8 @@ Logic AI automatic reasoning
 |1 | 1 |  1  |  1  |  1   |    1| 
 
 
-modus ponens
-not(p) | q \
+#### modus ponens
+not(p) &amp; q \
              -> q
     p      /
 
