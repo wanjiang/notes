@@ -106,7 +106,7 @@ Chinese  Chinese  Chinese Tokyo Japan is c
 
 #ER
 ### High-level Conceptual Data Models for DB Design
-  #### Steps:
+Steps:
   - Conceptual DB design
   - Logical DB design
   - Physical DB design
@@ -189,8 +189,8 @@ Chinese  Chinese  Chinese Tokyo Japan is c
 - Chain
 - Absfact
   python 
-    - __init__ constructor 
-    - __new__ will become the main constructor can create instance of any class
+    - `__init__` constructor 
+    - `__new__` will become the main constructor can create instance of any class
               like Factory
 
 
