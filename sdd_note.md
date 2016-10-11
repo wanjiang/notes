@@ -58,6 +58,7 @@ P(word|class) = [COUNT(word in class) + 1]/[The total words in the class + |v|]
 - P(Chinese|j) = (1+1)/(3+6) = 2/9
 - P(Tokyo|j) = (1+1)/(3+6) = 2/9
 - P(Japan|j) = (1+1)/(3+6) = 2/9
+
 ```
 Answer:
 1. P(c|testdoc) 
@@ -71,38 +72,37 @@ P = P(j) x P(Chinese|j) x P(Chinese|j) x P(Chinese|j) x P(Tokyo|j) x P(Japan|j)
 Since 0.0003>0.0001
 Chinese  Chinese  Chinese Tokyo Japan is c 
 ```
-+------------------------------------------------------------------------------+
 
-*VI
-:set ic  ignore case
-:set nonu
-:set number
-%
-syntax on
-       off
-insert
-moving around
-:
-/find
-f blank
-; repeat
-Ctrl Down
-Ctrl Up
-H
-L
-M
-:23
-Ctrl g
-mb   mark
-'b   back to mark
-dtf  delete to the "f"
-:|, $ s/...
-:|, %
-:n   :#
-:e   fn
-:split
-:vsplit
-yy   to buffer
+#VI
+- :set ic  ignore case
+- :set nonu
+- :set number
+- %
+- syntax on
+-        off
+- insert
+- moving around
+- :
+- /find
+- f blank
+- ; repeat
+- Ctrl Down
+- Ctrl Up
+- H
+- L
+- M
+- :23
+- Ctrl g
+- mb   mark
+- 'b   back to mark
+- dtf  delete to the "f"
+- :|, $ s/...
+- :|, %
+- :n   :#
+- :e   fn
+- :split
+- :vsplit
+- yy   to buffer
 
 +------------------------------------------------------------------------------+
 
