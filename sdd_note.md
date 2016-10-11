@@ -104,32 +104,30 @@ Chinese  Chinese  Chinese Tokyo Japan is c
 - :vsplit
 - yy   to buffer
 
-+------------------------------------------------------------------------------+
-
-*ER
-- High-level Conceptual Data Models for DB Design
-  * Steps:
+#ER
+### High-level Conceptual Data Models for DB Design
+  #### Steps:
   - Conceptual DB design
   - Logical DB design
   - Physical DB design
 
-ER Schema Diagram
+### ER Schema Diagram
 
-ER Model Concepts
+### ER Model Concepts
 - Entities, Attributes, and Values of Attributes
 
-Type of Attributes
+### Type of Attributes
 - simple vs. composite (first name vs full name)
 - single-valued vs. multi-values (car age vs. car colors)
 - derivable (age from birth date)
 - null
 
-Entity Types, Value Sets, and Key Attributes
+### Entity Types, Value Sets, and Key Attributes
 - Entity Types defines schema for an entity set
 - Value Sets are domains of values
 - Key Attributes unique identifying attribute for each entity
 
-Relationships, Roles, and Structual Constraints
+### Relationships, Roles, and Structual Constraints
 - A realationship is a subset of Cartesian Product of E1xE2...xEn of the 
   entities participating in the relation
 - Degree of the relationship is the number of entity types
@@ -144,32 +142,32 @@ Relationships, Roles, and Structual Constraints
   - 1:N can migrate to the N side
 - Weak Entity Types: have no key attribute of their own
 
-Notation for ER Diagrams (min,max)
+### Notation for ER Diagrams (min,max)
 - (1,1): an employee must participate in exactly 1 works_for relationship with 
   a department
 - (0,1)
 - (4,N)
 
-Proper Naming of Schema Constructs
+### Proper Naming of Schema Constructs
 - Singular names for entities
 - Nouns -> entities
 - Verbs -> relationships
 
-Relational Model Concepts
+### Relational Model Concepts
 - Domains: ints, floats..
 - Attributes
 - Tuples
 - Relations (tables)
 - Predicate (Prolog)
 
-Relational Model Constraints
+### Relational Model Constraints
 - Domain constraint
 - Key constraint
 - Entity Integrity constraint
 - Referential Integrity constraint
 - Semantic Integrity constraint
 
-Relational Database Design Using ER-to-Relational Mapping Steps
+### Relational Database Design Using ER-to-Relational Mapping Steps
 - 1.Create a relation for each regular entity type.Choose primary keys.
 - 2.Create a relation for each weak entity type.Include a foreign key back to 
   the owner entity type's primary key
@@ -179,9 +177,7 @@ Relational Database Design Using ER-to-Relational Mapping Steps
 - Handle multi-valued attrubutes
 - Handle N-ary relationship types
 
-+------------------------------------------------------------------------------+
-
-Design Pattern GOF Gof4 Nutshell book ASPN
+#Design Pattern GOF Gof4 Nutshell book ASPN
 - Singleton
   has only one singleton
   create singleton of any class
@@ -197,8 +193,6 @@ Design Pattern GOF Gof4 Nutshell book ASPN
     - __new__ will become the main constructor can create instance of any class
               like Factory
 
-+------------------------------------------------------------------------------+
 
-Prolog
+#Prolog
 
-+------------------------------------------------------------------------------+
