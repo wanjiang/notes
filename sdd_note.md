@@ -13,7 +13,7 @@ Logic AI automatic reasoning
 
 #### modus ponens
 ```
-not(p) &amp; q \
+not(p) | q \
                 -> q
     p          /
 ```
