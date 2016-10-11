@@ -39,7 +39,7 @@ training case - first two files
 |Chinese | Macao  |          |   c  |
 |- - - - |- - - - |- - - - - |- - - |
 |Tokyo   | Japan   | Chinese   | j    |
-|--------|--------|----------|------|
+|--------|--------|----------|------|-------|
 |Chinese  |Chinese  |Chinese |Tokyo |Japan ?|
 
 P(c) = 3/4, P(j) = 1/4
