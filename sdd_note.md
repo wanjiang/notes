@@ -1,4 +1,4 @@
-*PROJECT #3
+#PROJECT #3
 Logic AI automatic reasoning
 
 Truth table
