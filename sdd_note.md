@@ -3,7 +3,7 @@ Logic AI automatic reasoning
 
 ### Truth table
 
-|p | q | p ap q | p or q | `p to q` | `not(p)q`| 
+|p | q | p ap q | p or q | `p to q` | `notpq`| 
 |:-|:--|:----|:------|:-----|:----------|
 |`0` | `0` |  `0`  |  `0`  |  `1`   |    `1`| 
 |0 | 1 |  0  |  1  |  1   |    1| 
