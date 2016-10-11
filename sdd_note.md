@@ -3,7 +3,7 @@ Logic AI automatic reasoning
 
 ### Truth table
 
-|p | q | `p&q` | `p|q` | `p->q` | `not(p)|q`| 
+|p | q | `p&q` | `p|q` | `p->q` | `not(p)q`| 
 |:-|:--|:----|:------|:-----|:----------|
 |`0` | `0` |  `0`  |  `0`  |  `1`   |    `1`| 
 |0 | 1 |  0  |  1  |  1   |    1| 
