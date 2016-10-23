@@ -196,3 +196,23 @@ Steps:
 
 #Prolog
 
+```
+The shell is actually a full programming language, with variables and functions, and also arrays, being directly linked to the kernel, it has native file I/O primitives built into its very synatax, as well as process and job control.
+```
+#Unix
+- Everything is a file
+- Pipelines
+    - pipes introduced the idea of having stdin and stdout, through which the data would flow.
+    - One process creates output, which becomes input to another command.
+    - The Unix pipes method introduced a concept that dramatically affected the design of the rest of the system.
+    - Most commands have a file argument as well, but existing commands were modified to default to read from their stdin and stdout
+    - The pipe can then "stream" the data from one tool to another.
+    - It makes the whole system a set of generiacally useful tools, as opposed to monolithic, single-purpose applications.
+    - This has been summarized as "do one thing and do it well"
+    - The GNU project still sticking to the "do one thing and do it well"
+    - who | wc -l
+    
+
+#GNU
+
+#Linux
