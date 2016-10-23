@@ -23,6 +23,7 @@ not(p) | q \
            /
 ```
 #Dynamic programming Distance of two string
+global sequence alignment using Needleman/Wunsch
 
 match    +2
 mismatch -1
@@ -177,7 +178,21 @@ Steps:
 - Handle multi-valued attrubutes
 - Handle N-ary relationship types
 
-#Design Pattern GOF Gof4 Nutshell book ASPN
+#Design Pattern [GOF Gof4 Nutshell book ASPN](http://legacy.python.org/workshops/1997-10/proceedings/savikko.html#gof)
+Types of patterns:
+- Creational patterns
+```
+address object instantiation issues
+```
+- Structural patterns
+```
+concentrate on object composition and their relations in the runtime object structures, describe the layout of the object system.
+```
+- Behavioral patterns
+```
+focus on the internal dynamics and object interaction in the system
+```
+
 - Singleton
   has only one singleton
   create singleton of any class
@@ -196,12 +211,11 @@ Steps:
 
 #Prolog
 
-```
-The shell is actually a full programming language, with variables and functions, and also arrays, being directly linked to the kernel, it has native file I/O primitives built into its very synatax, as well as process and job control.
-```
 #Unix
+The shell is actually a full programming language, with variables and functions, and also arrays, being directly linked to the kernel, it has native file I/O primitives built into its very synatax, as well as process and job control.
+
 - Everything is a file
-- Pipelines
+- Pipeline
     - pipes introduced the idea of having stdin and stdout, through which the data would flow.
     - One process creates output, which becomes input to another command.
     - The Unix pipes method introduced a concept that dramatically affected the design of the rest of the system.
@@ -211,8 +225,7 @@ The shell is actually a full programming language, with variables and functions,
     - This has been summarized as "do one thing and do it well"
     - The GNU project still sticking to the "do one thing and do it well"
     - who | wc -l
-    
 
-#GNU
+#GNU (GNU's Not Unix)
 
 #Linux
