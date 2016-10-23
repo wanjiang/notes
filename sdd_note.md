@@ -185,7 +185,7 @@ Steps:
 Patterns are not invented, they are discovered.
 ```
 - Creational patterns
-  patterns provide a way to create objects while hiding the creation logic, rather than instantiating objects directly using a new operator.
+  - patterns provide a way to create objects while hiding the creation logic, rather than instantiating objects directly using a new operator.
 ```
 address object instantiation issues
 ```
