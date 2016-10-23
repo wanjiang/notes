@@ -178,7 +178,8 @@ Steps:
 - Handle multi-valued attrubutes
 - Handle N-ary relationship types
 
-#Design Pattern [GOF Gof4 Nutshell book ASPN](http://legacy.python.org/workshops/1997-10/proceedings/savikko.html#gof)
+#Design Pattern 
+[GOF Gof4 Nutshell book ASPN](http://legacy.python.org/workshops/1997-10/proceedings/savikko.html#gof)
 Types of patterns:
 - Creational patterns
 ```
