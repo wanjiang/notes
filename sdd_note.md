@@ -203,16 +203,16 @@ focus on the internal dynamics and object interaction in the system
 
 ##Patterns
 - Singleton (creational)
-  limit the number of the instances of the class to one
+  - limit the number of the instances of the class to one
   has only one singleton
   create singleton of any class
 - Borg
-  multiple instances but share the same state
+  - multiple instances but share the same state
 - Itgen
 - Observer
 - Adapter
 - Chain of Responsibility (behavioral)
-  create a system that can serve different requests in a hierarchical manner.
+  - create a system that can serve different requests in a hierarchical manner.
   In other words if an object that is a part of the system does not know how
   to respond to the given request it passes it along the object tree.
   It is often used in the context of graphical user interfaces where one
@@ -223,10 +223,7 @@ focus on the internal dynamics and object interaction in the system
     - `__new__` will become the main constructor can create instance of any class
               like Factory
 - Proxy (strutural)
-  an object has to be shielded from its clients.
-  There may be a number of reasons for this: reference counting, 
-  different levels of access rights, 
-  lazy evaluation of the state of the object and so on.
+  - an object has to be shielded from its clients.There may be a number of reasons for this: reference counting, different levels of access rights, lazy evaluation of the state of the object and so on.
 - Iterator (behavioral)
 - Command (behavioral)
 - Dependency Injection (creational)
