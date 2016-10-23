@@ -180,8 +180,12 @@ Steps:
 
 #Design Pattern 
 [GOF Gof4 Nutshell book ASPN](http://legacy.python.org/workshops/1997-10/proceedings/savikko.html#gof)
-Types of patterns:
+##Types of patterns:
+```
+Patterns are not invented, they are discovered.
+```
 - Creational patterns
+  patterns provide a way to create objects while hiding the creation logic, rather than instantiating objects directly using a new operator.
 ```
 address object instantiation issues
 ```
@@ -193,8 +197,13 @@ concentrate on object composition and their relations in the runtime object stru
 ```
 focus on the internal dynamics and object interaction in the system
 ```
+##Principles
+- Program to an interface not an implementation
+- Favor object composition over inheritance
 
-- Singleton
+##Patterns
+- Singleton (creational)
+  limit the number of the instances of the class to one
   has only one singleton
   create singleton of any class
 - Borg
@@ -202,13 +211,30 @@ focus on the internal dynamics and object interaction in the system
 - Itgen
 - Observer
 - Adapter
-- Chain
+- Chain of Responsibility (behavioral)
+  create a system that can serve different requests in a hierarchical manner.
+  In other words if an object that is a part of the system does not know how
+  to respond to the given request it passes it along the object tree.
+  It is often used in the context of graphical user interfaces where one
+  widget may contain several other widges.
 - Absfact
   python 
     - `__init__` constructor 
     - `__new__` will become the main constructor can create instance of any class
               like Factory
-
+- Proxy (strutural)
+  an object has to be shielded from its clients.
+  There may be a number of reasons for this: reference counting, 
+  different levels of access rights, 
+  lazy evaluation of the state of the object and so on.
+- Iterator (behavioral)
+- Command (behavioral)
+- Dependency Injection (creational)
+- Facade (structural)
+  used for interface simplification
+- Adapter (structural)
+  all about altering the interface
+- Decorator
 
 #Prolog
 
