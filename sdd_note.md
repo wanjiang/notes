@@ -1,3 +1,15 @@
+#PROJECT #5
+##[Dynamic loading](http://tldp.org/HOWTO/Program-Library-HOWTO/dl-libraries.html)
+  - In Linux, DL libraries aren't actually special from the point-of-view of their format; they are built as standard object files or standard shared libraries as discussed above. The main difference is that the libraries aren't automatically loaded at program link time or start-up; instead, there is an API for opening a library, looking up symbols, handling errors, and closing the library. C users will need to include the header file <dlfcn.h> to use this API.
+  - is a mechanism by which a computer program can, at run time,load a library into memory,retrieve the addresses of functions and variables contained in the library, execute those functions or access those variables, and unload the library from memory. 
+  - Unlike static linking and dynamic linking, dynamic loading allows a computer program to start up in the absence of these libraries, to discover available libraries, and to potentially gain additional functionality.
+  - Dynamic loading is most frequently used in implementing software plugins. For example, the Apache Web Server's *.dso "dynamic shared object" plugin files are libraries which are loaded at runtime with dynamic loading. Dynamic loading is also used in implementing computer programs where multiple different libraries may supply the requisite functionality and where the user has the option to select which library or libraries to provide.
+
+
+##Static linking
+
+##Dynamic linking
+
 #PROJECT #3
 Logic AI automatic reasoning
 
