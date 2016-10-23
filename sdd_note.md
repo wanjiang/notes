@@ -277,6 +277,21 @@ The shell is actually a full programming language, with variables and functions,
     - This has been summarized as "do one thing and do it well"
     - The GNU project still sticking to the "do one thing and do it well"
     - who | wc -l
+- Filter
+    - A filter is a computer program or subroutine to process a stream, producing another stream. While a single filter can be used individually, they are frequently strung together to form a pipeline.
+    - The classic filter in Unix is Ken Thompson's grep,grep at its simplest prints any lines containing a character string to its output. 
+    - List of Unix filter programs
+      - awk
+      - cat
+      - tail
+      - tee
+      - wc
+      - cut
+      - more
+      - less
+      - sort
+      - grep
+      - head
 
 #GNU (GNU's Not Unix)
 
