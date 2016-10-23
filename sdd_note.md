@@ -22,7 +22,12 @@ NumPy is the fundamental package for scientific computing with Python. It contai
 ##matplotlib
 
 #PROJECT #3
-Logic AI automatic reasoning
+
+##DPLL algorithm
+is a complete, backtracking-based search algorithm for deciding the satisfiability of propositional logic formulae in conjunctive normal form
+
+
+##Logic AI automatic reasoning
 
 ### Truth table
 
