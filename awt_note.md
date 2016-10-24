@@ -25,6 +25,54 @@ well as a clear purpose for each technology involved.
 ###HTML5
 - HTML5 is considered a product of the combination of HTML, CSS and Javascript.
   - HTML (markup language) is in charge of the structure, provides the structural elements
+    - Form API
+    - Fullscreen API
+    - Canvas API
+    - Cross-Origin using CORS (Cross-Origin Resource Sharing)
+      - is an application that is allocated in one domain and accessing 
+        resources from another. 
+    - WebGL and Three.js
+      - WebGL is an exteremely low-level API that works with the <canvas>
+        element to create 3D graphics for the web. It utilizes the GPU of
+        the video card to perform some perations and relieves the CPU
+        of the hard work.
+    - Drag and Drop
+    - Web Storage API
+      - Cookies (store small pieces of information on the client side)
+      - Web Storage API store data in the user's hard drive and use it later
+        as a desktop applicaiton would
+        - sessionStorage
+          - will keep data available only for the duration of a page session.
+        - localStorage
+          - works similarly to a storage system for a desktop application.
+    - IndexedDB API
+      - the web storage API is useful for small amounts of data,
+        indexedDB API is for large  amounts of structured data.
+    - File API
+      - File Storage
+    - Geolocation API
+      - provide a standard detection mechanism for browsers to let
+        developer determine the user's geographic location.
+    - Page Visibility API
+    - Ajax Level 2
+      - XMLHttpRequest, provides a way to access the server and retrieve
+        information from javascript without reloading the HTML document
+    - Web Messaging API
+      - communicating with an iFrame
+    - WebSockets
+      - provides connection support for faster and more effective bi-directional        communication between browsers and servers.
+    - WebRTC
+      - web real-time communication.
+      - create an effective peer-to-peer connection.
+    - Web Workers 
+      - multithreading language
+      - Types of workers
+        - dedicated worker (only responds to the main code from which it 
+          was created)
+        - shared worker (responds to multiple documents, share the same worker
+          from different windows, tabs ..)
+
+
   - CSS (sheet of style) presents that structure and its content on the screen,
     manages the structure to make it attractive and useful
     - selector
@@ -45,6 +93,18 @@ well as a clear purpose for each technology involved.
     - Ajax is the name of group of techniques developed in Javascript
       that allow applications to get information form the server without
       refreshing the web page or loading a new document.
+    - Types
+      - Inline 
+      - Embedded <script>
+      - External File
+    - Things
+      - Refernece elements
+      - register events
+      - Interacting with the document
+    - InnerHTML outerHTML and InsertAdjacentHTML
+    - API
+      - Native APIs (are included natively by HTML5)
+      - External APIs (Google Maps, jQuery)
 
 ###Introduction to HTML
 - The HyperText Markup Language is a programming language.
@@ -128,6 +188,13 @@ A webpage is actually a group of boxes put together following certain rules
 - is an interpreted language used for multiple purpose
 - turn script into machine code in order to reach execution speeds similar to
   desktop app.
+- perform numerous tasks
+- capacity to store and process information
+
+####Event Attributes
+- HTML provides attribute to insert Javascript code.
+
+####cross-browser technique
 
 
 
