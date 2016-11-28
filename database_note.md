@@ -63,6 +63,7 @@ END CATCH
 #Stored Procedure
 - is a saved collection of Transact-SQL statements that can take and return 
   user-supplied parameters.
+- it never returns value which is different from function
 - Benefits
   - Speed
   - Code reuse and abstraction
@@ -88,7 +89,7 @@ AS
 GO
 ```
 
-#Trigger
+#Trigger (DML trigger)
 - is a special kind of stored procedure that automatically executes when an
   even occurs
 - Syntax
