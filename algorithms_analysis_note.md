@@ -1,0 +1,12 @@
+#Fundamentals
+- Basic Programming Model
+  - Basic structure Java
+    - Primitive data types
+    - Statements
+    - Arrays
+    - Strings
+    - Input/output sets
+    - Data abstraction
+- Data Abstraction
+- Bags, Queues, and Stacks
+- Analysis of Algorithms
