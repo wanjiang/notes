@@ -149,6 +149,7 @@ A webpage is actually a group of boxes put together following certain rules
   - The boxes were created by expanding cells and combining rows of cells,
     columns of cells and entire tables.
   - It needs the boxes to be wrapped together to procide horizontal order.
+- Grid
 - Flexible Box Model
   - The main purpose of a box model is to provide a mechanism for dividing
     the window's space into several boxes and creating the rows and columns
