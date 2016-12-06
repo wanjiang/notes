@@ -8,12 +8,18 @@
   F(n) = n,             if n<2
        = F(n-1)+F(n-2), otherwise
   ```
+    - Divide-and-conquer Algoritm
+      - Recursion Tree
+      - Time complexity T(n)=$(1.5^n)$
   - Binomial Coefficient
   - 0/1 Knapsack
   - Matrix Chain Multiplication
   - Floyd's Algorithm for All Pairs Shortest Paths
 
 
+#Comparison
+- Recursion tree vs decision tree
+  - MergeSort, Fib(8)
 
 #Fundamentals
 - Time vs Storage
