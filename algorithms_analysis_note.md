@@ -5,7 +5,7 @@
 - Dynamic Programming Algorithms
   - Fibonacci Sequence
   ```
-  F(n) = n, if n<2
+  F(n) = n,             if n<2
        = F(n-1)+F(n-2), otherwise
   ```
   - Binomial Coefficient
