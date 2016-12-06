@@ -10,7 +10,7 @@
   ```
     - Divide-and-conquer Algoritm
       - Recursion Tree
-      - Time complexity T(n)=${1.5^n}$
+      - Time complexity T(n)=$$1.5^n$$
   - Binomial Coefficient
   - 0/1 Knapsack
   - Matrix Chain Multiplication
