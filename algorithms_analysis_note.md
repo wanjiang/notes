@@ -105,7 +105,9 @@
 
 
     - Merge Sort
+
       ![Merge Sort](img/Merge-sort-example.gif)
+
 - Lower bound on Sorting
   - Secision tree argument
 
