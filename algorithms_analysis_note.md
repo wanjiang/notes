@@ -124,8 +124,16 @@
 
       ![Merge Sort](img/Merge-sort-example.gif)
 
-- Lower bound on Sorting
-  - Secision tree argument
+- Lower bound on Sorting at least O(nlogn)
+  - Decision tree argument
+
+  ```
+  if the decision tree has depth d, it has at most 2^d leaves
+  n!    <= 2^d
+  logn! <= d
+  n! <= n^n
+  d is at least nlogn
+  ```
 
 #Searching Problems
 - Binary and Sequential Search algorithms
