@@ -102,9 +102,25 @@
       after each comparison, and is in the class of algorithm above.
 
   - Why Quick Sort and Merge Sort are better?
-
-
+    - Quick Sort
+      - inversion n(n-1)/4
+      - inversion in first part (k-1)(k-2)/4
+      - inversion in second part (n-k)(n-k-1)/4
+      - Patition removes inversions n(n-1)/4-[(k-1)(k-2)/4+(n-k)(n-k-1)/4]
+      - patition reqires n-1 comparisons in the every case
+      - each comparison removes {n(n-1)/4-[(k-1)(k-2)/4+(n-k)(n-k-1)/4]}/(n-1)
     - Merge Sort
+      - inversion n(n-1)/4
+      - inversion in first half n/2(n/2-1)/4
+      - inversion in second half n/2(n/2-1)/4
+      - inversion from different part n(n-1)/4 - 2*n/2(n/2-1)/4 = n^2/8
+      - merge reqires n-1 comparisons in the worst case
+      - each comparison removes (n^2/8)/(n-1) inversions on average
+
+      ```
+      n=8    => 1
+      n=1024 => 128
+      ```
 
       ![Merge Sort](img/Merge-sort-example.gif)
 
