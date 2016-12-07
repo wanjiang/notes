@@ -4,10 +4,12 @@
   - Use Bottom-up approach
 - Dynamic Programming Algorithms
   - Fibonacci Sequence
+
   ```
   F(n) = n,             if n<2
        = F(n-1)+F(n-2), otherwise
   ```
+
     - Divide-and-conquer Algoritm
       - Recursion Tree
       - Time complexity T(n)=1.5^n
@@ -33,21 +35,26 @@
     - Dynamic programming
       - find the recursive property of the solution to a problem and solve it
         iteratively
+
         ```
         value(i,j) = min{value(i,k)+value(k,j)+di-1*dk*dj}
         ```
+
       - bottom-up approach
         - start with the smallest problem, store solutions in an array or table
+
         ```
         n by n table
         value(i,i) = 0
         value(i,i+1)
         ```
+
         ```
         output:
         value[n,n]
         K[n,n]
         ```
+
         - look up the solutions to smaller problems
 
   - Floyd's Algorithm for All Pairs Shortest Paths
@@ -73,15 +80,19 @@
 - Finding Maximum
   - Lower bound in Maximum Problem
     - Simple recursive O(n-1)
+
       ```
       W(n) = 0,        n=1
            = W(n-1)+1, n>1
       ```
+
     - Divide and conquer O(n-1)
+
       ```
       W(n) = 0,        n=1
            = 2W(n/2)+1,n>1
       ```
+
   - (n-1) elements have to lose in a comparison, each produces at most one loser
 
 - Finding Maximum and Minimum
@@ -107,6 +118,7 @@
   - Lower bound on Maximum and Minimum
     - Labeling argument n/2+(n-2)
       - label each element as
+
       ```
       N: has not been compared
       W: has won one or more comparison(s)
@@ -121,6 +133,7 @@
       N     L  one element
       need 1+2(n-2)+1=(2n-2) lable changes
       ```
+
       ```
       Types of comparisons:(N,N),(N,W),(W,W),...(L,W)
       Only type (N,N) guarantees 2 label changes
