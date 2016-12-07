@@ -104,7 +104,8 @@
   - Why Quick Sort and Merge Sort are better?
 
 
-  ![Merge Sort](img/Merge-sort-example.gif)
+    - Merge Sort
+      ![Merge Sort](img/Merge-sort-example.gif)
 - Lower bound on Sorting
   - Secision tree argument
 
