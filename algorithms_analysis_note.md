@@ -74,6 +74,39 @@
   - Optimal Merge Pattern
   - Huffman Code
 
+#Comparisons of Sorting Algorithms
+- QuickSort and Partition  W(n^2), Average case is the best.(divide and conquer)
+  - just one space
+- MergeSort and Merge W(nlogn), A(nlogn) (divide and conquer)
+  - need another array, if it is big, you need big space
+- InsertionSort and Insert W(n^2), A(n^2), B(n) (simple recursive)
+- Removal of Inversions 
+  - maximum number of inversions n(n-1)/2
+  - average number of inversions n(n-1)/4
+
+  ```
+  1 2 3 4 5    0
+  2 1 3 4 5    1
+  ...
+  5 4 3 2 1    10
+  5!/2 pairs of permutatuions
+  5! possible sequence
+  each two need n(n-1)/2 of inversions
+  60*10/120 = 5
+  ```
+  - Why Insertion is O(n^2)?
+    - any algorithm that sorts n distinct keys only by comparisons of keys and 
+      removes at most one inversion after each comparison must in the worst case
+      do at least n(n-1)/2. and, on the average, do at least n(n-1)/4
+    - insertion sort removes at most the inversion consisting of S[j] and x
+      after each comparison, and is in the class of algorithm above.
+
+  - Why Quick Sort and Merge Sort are better?
+
+
+  ![Merge Sort](img/Merge-sort-example.gif)
+- Lower bound on Sorting
+  - Secision tree argument
 
 #Searching Problems
 - Binary and Sequential Search algorithms
