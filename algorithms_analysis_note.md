@@ -87,6 +87,7 @@
 - Finding Maximum and Minimum
   - B(n)=(n-1) if array is ordered, W(n)=(2n-2)
   - Divide and conquer O(3n/2-2)
+
     ```
     Assume n>=2
     if n=2
@@ -97,10 +98,12 @@
       max=larger(max1,max2)
       min=smaller(min1,min2)
     ```
+
     ```
     W(n) = 1,         n=2
          = 2W(n/2)+2, n>2
     ```
+
   - Lower bound on Maximum and Minimum
     - Labeling argument n/2+(n-2)
       - label each element as
