@@ -23,7 +23,8 @@
   - 0/1 Knapsack
     - greedy approach
     - divide and conquer
-    - dynamic programming
+    - dynamic programming O(nm) could be worse than O(n^2) 
+      n:number of items, m:capacity
 
   - Matrix Chain Multiplication
     - Given a chain of matrics A1,A2,A3,...,An and dimensions d0,d1,...,dn
@@ -73,6 +74,16 @@
   - Scheduling Problems
   - Optimal Merge Pattern
   - Huffman Code
+
+#Search Algorithms
+- Worst case exponetial, in reality can be very efficient
+- Backtracking Algorithms
+  - N-Queen
+  - 0/1 Knapsack
+- Branch-and-bound Algorithms
+  - 0/1 Knapsack
+  - Travelling Salesperson
+- Search Algorithms discussed in class
 
 #Comparisons of Sorting Algorithms
 - QuickSort and Partition  W(n^2), Average case is the best.(divide and conquer)
